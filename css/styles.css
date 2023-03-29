@@ -28,12 +28,16 @@
 
 @media (max-width:500px) {
   #navbar a.navbar-brand{
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: white;
   }
   #navbar .navbar-button{
     font-size: 1rem;
     padding: 0;
+  }
+  #navbar img{
+    width: 25px;
+    height: 20px;
   }
 }
 
@@ -56,7 +60,7 @@
     margin: 0 auto 0 auto;
   }
   #section-1 .title-img{
-    height: 40rem;
+    height: 300px;
   }
 }
 
@@ -257,3 +261,9 @@
 #footer .social-m-icon{
   margin: 0 3%;
 }
+
+@media (max-width:500px) {
+  #footer .navbar-footer a:hover{
+    border: 0;
+  }
+  }
