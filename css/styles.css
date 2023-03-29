@@ -26,6 +26,17 @@
   padding-left: 20px;
 }
 
+@media (max-width:500px) {
+  #navbar a.navbar-brand{
+    font-size: 1rem;
+    color: white;
+  }
+  #navbar .navbar-button{
+    font-size: 1rem;
+    padding: 0;
+  }
+}
+
 
 /* section-1 */
 
@@ -209,7 +220,7 @@
 }
 
 #footer .navbar-footer{
-  padding: 2% 0;
+  padding: 5% 0;
 }
 
 #footer .navbar-footer a,.support a{
@@ -239,7 +250,7 @@
   color: green;
 }
 
-#footer .col{
+#footer .col-support{
   padding: 2% 0;
 }
 
